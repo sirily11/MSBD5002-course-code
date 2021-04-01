@@ -7,37 +7,6 @@ from sympy import Symbol, Matrix, MatrixSymbol, summation
 from sympy.stats import Covariance
 
 
-def entropy(probabilities_arr: List[float]) -> float:
-    """
-    Calculate entropy based on the probabilities array
-    """
-    s = 0
-    for p in probabilities_arr:
-        a = -np.log2(p) * p if p != 0 else 0
-        s += a
-
-    return s
-
-
-def conditional_entropy(probabilities_arr: List[float], conditional_probabilities: List[float]) -> float:
-    """
-    Compute conditional entropy based on the probabilities array and conditional probabilities
-    The algorithm is based on $H(Y|X) = -\sum\sum p(x,y)logp(y|x) $
-
-    Args:
-        probabilities_arr: list of probabilities. p(x, y)
-        conditional_probabilities: conditional probabilities p(y|x)
-
-    Returns: conditional entropy
-    """
-    s = 0
-    for i, p in enumerate(probabilities_arr):
-        a = - p * np.log2(conditional_probabilities[i]) if conditional_probabilities[i] != 0 else 0
-        s += a
-
-    return s
-
-
 def kl_transform(points: List[Tuple], k=1):
     """
     Compute kl transform based on list of points
@@ -107,12 +76,14 @@ def kl_transform(points: List[Tuple], k=1):
     return final_results
 
 
-def kl_transform_with_symbol(points: List[Tuple], k=1):
+def kl_transform_with_symbol(points: List[Tuple], symbol, k=1, to_value=2):
     """
     Compute kl transform with sympy
     Args:
-        points:
-        k:
+        to_value: Replace sympy symbol to what value
+        symbol: sympy symbol
+        points: list of points. Can contain symbol like x
+        k: target number
 
     Returns:
 
@@ -141,12 +112,16 @@ def kl_transform_with_symbol(points: List[Tuple], k=1):
     eigenvectors = cov_matrix.eigenvects()
     # a list where first element is eigenvalues and second element is eigenvectors
     value_vectors = [(e[0], e[2]) for e in eigenvectors]
-    print("Eigenvalue: Eigenvector")
-    print(value_vectors)
     print("================================")
     print("Step 4, rearrange the eigenvectors in descending order of the eigenvalues")
     phi: Optional[Matrix] = None
-    value_vectors.sort(key=lambda e: e[0], reverse=True)
+    try:
+        value_vectors.sort(key=lambda e: e[0], reverse=True)
+    except:
+        value_vectors.sort(key=lambda e: e[0].subs(symbol, to_value), reverse=True)
+
+    print("Eigenvalue: Eigenvector")
+    print(value_vectors)
     for value_vector in value_vectors:
         vec = value_vector[1]
         for v in vec:
@@ -167,7 +142,10 @@ def kl_transform_with_symbol(points: List[Tuple], k=1):
     print("================================")
     print("Step 6, keep only the k values corresponding to the smallest k eigenvalues")
     eigenvalues_with_index = [(i, e[0]) for i, e in enumerate(value_vectors)]
-    eigenvalues_with_index.sort(key=lambda e: e[1])
+    try:
+        eigenvalues_with_index.sort(key=lambda e: e[1])
+    except Exception:
+        eigenvalues_with_index.sort(key=lambda e: e[1].subs(symbol, to_value))
     target_idx = [i for i, e in eigenvalues_with_index][:k]
     # noinspection PyUnresolvedReferences
     final_results = [r[target_idx[0]:target_idx[-1] + 1] for r in result]
@@ -178,7 +156,15 @@ def kl_transform_with_symbol(points: List[Tuple], k=1):
 
 
 if __name__ == '__main__':
-    pts = [(3, 3), (0, 2), (-1, -1), (2, 0)]
-    # c = Symbol("c")
-    # pts = [(7 + c, 7 + c), (9 + c, 9 + c), (6 + c, 10 + c), (10 + c, 6 + c)]
-    kl_transform(pts)
+    # pts = [(3, 3), (0, 2), (-1, -1), (2, 0)]
+    c = Symbol("c")
+    d = c + 5
+    pts1 = [(7 + c, 7 + c), (9 + c, 9 + c), (6 + c, 10 + c), (10 + c, 6 + c)]
+    pts2 = [(7 - d, 7 - d), (9 - d, 9 - d), (6 - d, 10 - d), (10 - d, 6 - d)]
+    pts3 = [(7 * c, 7 * c), (9 * c, 9 * c), (6 * c, 10 * c), (10 * c, 6 * c)]
+    # r1 = kl_transform_with_symbol(pts1)
+    # r2 = kl_transform_with_symbol(pts2)
+
+    r3 = kl_transform_with_symbol(pts3, symbol=c, to_value=1)
+    print()
+    # print(r1[0][0] / r2[0][0])

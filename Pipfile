@@ -12,6 +12,7 @@ numpy = "*"
 scipy = "*"
 matplotlib = "*"
 sympy = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
