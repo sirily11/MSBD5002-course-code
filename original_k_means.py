@@ -2,10 +2,7 @@ from typing import Tuple, List
 from scipy.spatial import distance
 import numpy as np
 import matplotlib.pyplot as plt
-
-
-def calculate_distance(point1: Tuple[int, int], point2: Tuple[int, int]):
-    return distance.euclidean(point1, point2)
+from distances import calculate_distance
 
 
 def calculate_new_center(points: List[Tuple[int, int]]):

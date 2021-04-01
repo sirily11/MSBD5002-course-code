@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d98bbcce-18d1-4d33-a3c3-c6219df35023" name="Default Changelist" comment="" />
+    <list default="true" id="d98bbcce-18d1-4d33-a3c3-c6219df35023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outlier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subspace_clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distances/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/distances/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distances/distances.py" beforeDir="false" afterPath="$PROJECT_DIR$/distances/distances.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original_k_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/original_k_means.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,46 +45,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="81c90649-4c6e-45c6-a6e5-0ca1043e9dd7" />
   <component name="ProjectId" id="1pslg5Mh6q19HyQow8nMj9haZ2G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fptree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dengrogram">
-    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apriori.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.subspace_clustering">
     <configuration name="dengrogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,28 +112,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fpgrowth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fpgrowth.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="original_k_means" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,13 +134,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="outlier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/outlier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subspace_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subspace_clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.subspace_clustering" />
+        <item itemvalue="Python.outlier" />
         <item itemvalue="Python.dengrogram" />
         <item itemvalue="Python.distance" />
         <item itemvalue="Python.original_k_means" />
-        <item itemvalue="Python.fpgrowth" />
-        <item itemvalue="Python.apriori" />
       </list>
     </recent_temporary>
   </component>
@@ -162,77 +198,118 @@
       <updated>1615979787707</updated>
       <workItem from="1615979789192" duration="3002000" />
       <workItem from="1616042649476" duration="16442000" />
-      <workItem from="1616076024872" duration="4052000" />
+      <workItem from="1616076024872" duration="4226000" />
+      <workItem from="1616128588291" duration="6060000" />
+      <workItem from="1617254055999" duration="2232000" />
+      <workItem from="1617256860729" duration="11183000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2501" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616080620867">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2501" y="349" key="#com.intellij.fileTypes.FileTypeChooser/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616080620867" />
-    <state width="1878" height="294" key="GridCell.Tab.0.bottom" timestamp="1616080530284">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.0.bottom" timestamp="1617268741668">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616045054172" />
-    <state width="1878" height="294" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616080530284" />
+    <state width="1494" height="328" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1617268741668" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779106" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390838" />
     <state width="1750" height="353" key="GridCell.Tab.0.bottom/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130635" />
     <state width="1750" height="353" key="GridCell.Tab.0.bottom/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010798" />
-    <state width="1878" height="294" key="GridCell.Tab.0.center" timestamp="1616080530283">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.0.center" timestamp="1617268741667">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616045054171" />
-    <state width="1878" height="294" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616080530283" />
+    <state width="1494" height="328" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1617268741667" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779105" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390837" />
     <state width="1750" height="353" key="GridCell.Tab.0.center/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130634" />
     <state width="1750" height="353" key="GridCell.Tab.0.center/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010797" />
-    <state width="1878" height="294" key="GridCell.Tab.0.left" timestamp="1616080530282">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.0.left" timestamp="1617268741666">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616045054170" />
-    <state width="1878" height="294" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616080530282" />
+    <state width="1494" height="328" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1617268741666" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779104" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390836" />
     <state width="1750" height="353" key="GridCell.Tab.0.left/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130634" />
     <state width="1750" height="353" key="GridCell.Tab.0.left/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010797" />
-    <state width="1878" height="294" key="GridCell.Tab.0.right" timestamp="1616080530283">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.0.right" timestamp="1617268741668">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616045054171" />
-    <state width="1878" height="294" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616080530283" />
+    <state width="1494" height="328" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1617268741668" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779105" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390838" />
     <state width="1750" height="353" key="GridCell.Tab.0.right/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130635" />
     <state width="1750" height="353" key="GridCell.Tab.0.right/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010798" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1616077685809">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.1.bottom" timestamp="1617268743311">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616042644825" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616077685809" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1616077685808">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1617268743311" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779108" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390841" />
+    <state width="1494" height="328" key="GridCell.Tab.1.center" timestamp="1617268743310">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616042644823" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616077685808" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1616077685808">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1617268743310" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779107" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390840" />
+    <state width="1494" height="328" key="GridCell.Tab.1.left" timestamp="1617268743309">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616042644823" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616077685808" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1616077685809">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1494" height="328" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1617268743309" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779106" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390839" />
+    <state width="1494" height="328" key="GridCell.Tab.1.right" timestamp="1617268743310">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616042644824" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616077685809" />
-    <state x="2217" y="200" key="SettingsEditor" timestamp="1616076008879">
-      <screen x="1792" y="23" width="1920" height="997" />
+    <state width="1494" height="328" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1617268743310" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616135779107" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616082390840" />
+    <state x="340" y="170" key="SettingsEditor" timestamp="1617256977789">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
+    <state x="340" y="170" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1617256977789" />
     <state x="397" y="199" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616042714148" />
     <state x="2217" y="200" key="SettingsEditor/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076008879" />
+    <state width="768" height="480" key="XDebugger.FullValuePopup" timestamp="1617268733831">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="768" height="480" key="XDebugger.FullValuePopup/0.0.1536.960@0.0.1536.960" timestamp="1617268733831" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/subspace_clustering.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$dengrogram.coverage" NAME="dengrogram Coverage Results" MODIFIED="1616080272207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$fpgrowth.coverage" NAME="fpgrowth Coverage Results" MODIFIED="1616048892140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$distance.coverage" NAME="distance Coverage Results" MODIFIED="1616076927644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$subspace_clustering.coverage" NAME="subspace_clustering Coverage Results" MODIFIED="1617268741544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1615982282243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$outlier.coverage" NAME="outlier Coverage Results" MODIFIED="1616134619830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$original_k_means.coverage" NAME="original_k_means Coverage Results" MODIFIED="1616063506563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
