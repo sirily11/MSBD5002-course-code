@@ -1,0 +1,9 @@
+digraph root {
+	Income [label=Income]
+	"Income-high" [label="2 high: 100.0%"]
+	Income -> "Income-high" [label=high]
+	Race [label=Race]
+	"Race-black" [label="3 black: 100.0%"]
+	Race -> "Race-black" [label=black]
+	Income -> Race [label=low]
+}

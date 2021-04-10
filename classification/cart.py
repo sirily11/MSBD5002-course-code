@@ -1,12 +1,15 @@
+from typing import Tuple, List
 import pandas as pd
-from typing import Tuple, List, Any
 
-from classification.utils import get_initial_information, information_gain, calculate_percentage
+from classification.entropy import entropy
+from classification.gini import gini
+from classification.utils import information_gain, calculate_percentage, get_initial_information
 
 
-def id3(target_table: pd.DataFrame, to_which_column: str, range_func) -> Tuple[list, List[Tuple[Any, Any]], Any]:
+def cart(target_table: pd.DataFrame, to_which_column: str, range_func) -> Tuple[
+    List[pd.DataFrame], List[pd.DataFrame], str]:
     """
-    Calculate the id3 tree node
+    Calculate the cart tree node
     Args:
         target_table:
         to_which_column:
@@ -19,13 +22,17 @@ def id3(target_table: pd.DataFrame, to_which_column: str, range_func) -> Tuple[l
     unique_to_column_values = target_table[to_which_column].unique()
 
     igs = []
-    e = get_initial_information(tmp_table, unique_to_column_values, column=to_which_column)
+    e = get_initial_information(tmp_table, unique_to_column_values, column=to_which_column, calc_func=gini)
     print(f"Entropy:{e}")
     for col in tmp_table.columns:
         if col != to_which_column:
             print("==================================")
             ig = information_gain(original_entropy=e, target_table=tmp_table, from_which_column=col,
-                                  to_which_column=to_which_column)
+                                  to_which_column=to_which_column, print_info=False, calc_func=gini)
+
+            print(f"For attribute: {col} related to {to_which_column}")
+
+            print(f"Information gain: {ig}")
             igs.append((col, ig))
 
     igs.sort(key=lambda e: e[1], reverse=True)
