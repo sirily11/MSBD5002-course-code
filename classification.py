@@ -32,40 +32,39 @@ if __name__ == '__main__':
     #                          ["n", "8", "n"]
     #                      ])
 
-    # table = pd.DataFrame(columns=["No", "Study CS", "Age", "Income", "Buy Bitcoin"],
-    #                      data=[
-    #                          ["1", "yes", "old", "fair", "yes"],
-    #                          ["2", "yes", "middle", "fair", "yes"],
-    #                          ["3", "no", "young", "fair", "yes"],
-    #                          ["4", "no", "young", "high", "yes"],
-    #                          ["5", "yes", "old", "low", "no"],
-    #                          ["6", "yes", "young", "low", "no"],
-    #                          ["7", "no", "young", "fair", "no"],
-    #                          ["8", "no", "middle", "low", "no"],
-    #                      ])
-    # table = table.drop(columns=["No"])
-
-    table = pd.DataFrame(columns=["Race", "Income", "Insurance"],
+    table = pd.DataFrame(columns=["No", "Study CS", "Age", "Income", "Buy Bitcoin"],
                          data=[
-                             ["black", "high", "yes"],
-                             ["black", "high", "yes"],
-                             ["black", "low", "yes"],
-                             ["black", "low", "yes"],
-                             ["white", "low", "no"],
-                             ["white", "low", "no"],
-                             ["white", "low", "no"],
-                             ["white", "low", "no"]
+                             ["1", "yes", "old", "fair", "yes"],
+                             ["2", "yes", "middle", "fair", "yes"],
+                             ["3", "no", "young", "fair", "yes"],
+                             ["4", "no", "young", "high", "yes"],
+                             ["5", "yes", "old", "low", "no"],
+                             ["6", "yes", "young", "low", "no"],
+                             ["7", "no", "young", "fair", "no"],
+                             ["8", "no", "middle", "low", "no"],
                          ])
+    table = table.drop(columns=["No"])
+
+    # table = pd.DataFrame(columns=["Race", "Income", "Insurance"],
+    #                      data=[
+    #                          ["black", "high", "yes"],
+    #                          ["black", "high", "yes"],
+    #                          ["black", "low", "yes"],
+    #                          ["black", "low", "yes"],
+    #                          ["white", "low", "no"],
+    #                          ["white", "low", "no"],
+    #                          ["white", "low", "no"],
+    #                          ["white", "low", "no"]
+    #                      ])
 
     decision_tree(treelib_tree=dot, target_table=table, to_which_column=table.columns[len(table.columns) - 1],
                   parent="Root",
-                  calculate_func=id3, range_func=lambda s: 1 > s > 0)
+                  calculate_func=c45, range_func=lambda s: 0.8 > s > 0)
 
-    dot.render("test/id3.gv", view=False)
-    dot = Digraph(name="root")
-    decision_tree(treelib_tree=dot, target_table=table, to_which_column=table.columns[len(table.columns) - 1],
-                  parent="Root",
-                  calculate_func=cart, range_func=lambda s: 1 > s > 0)
-    
-    dot.render("test/cart.gv", view=False)
-    # tree.show()
+    dot.render("test/c45.gv", view=False)
+    # dot = Digraph(name="root")
+    # decision_tree(treelib_tree=dot, target_table=table, to_which_column=table.columns[len(table.columns) - 1],
+    #               parent="Root",
+    #               calculate_func=cart, range_func=lambda s: 1 > s > 0)
+    #
+    # dot.render("test/cart.gv", view=False)

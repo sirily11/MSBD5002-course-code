@@ -165,6 +165,6 @@ if __name__ == '__main__':
     # r1 = kl_transform_with_symbol(pts1)
     # r2 = kl_transform_with_symbol(pts2)
 
-    r3 = kl_transform_with_symbol(pts3, symbol=c, to_value=1)
+    r3 = kl_transform_with_symbol(pts2, symbol=c, to_value=1)
     print()
     # print(r1[0][0] / r2[0][0])
