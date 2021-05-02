@@ -25,17 +25,22 @@ class GRU:
 
     def train(self, prev_y: float = None):
         y_outs: List[float] = []
+        r_outs = []
+        a_outs = []
+        u_outs = []
 
         if prev_y:
             y_outs.append(prev_y)
 
-        for t in range(len(self.input_matrix)):
+        start_index = 1 if prev_y is not None else 0
+
+        for t in range(start_index, len(self.input_matrix) + start_index):
             print(f"At Time {t + 1}")
-            x = self.input_matrix[t]
+            x = self.input_matrix[t - start_index]
             # y_{t-1}
             y_prev = y_outs[t - 1] if len(y_outs) > 0 else 0
             # current y value, real y
-            y = self.output[t][0]
+            y = self.output[t - start_index][0]
 
             r_out = self.r(w=self.wr, b=self.br, x=x, y=np.array(y_prev))
             a_out = self.a(w=self.wa, b=self.ba, x=x, y=np.array(y_prev), r=r_out)
@@ -48,6 +53,11 @@ class GRU:
                 f"y_t = {round(y_out, 4)}, error = {round(error, 4)}")
 
             y_outs.append(y_out)
+            r_outs.append(r_out)
+            a_outs.append(a_out)
+            u_outs.append(u_out)
+
+        return y_outs, r_outs, a_outs, u_outs
 
     def r(self, w: np.ndarray, b, x: np.ndarray, y: np.ndarray):
         new_s = np.vstack((x.reshape((-1, 1)), y))

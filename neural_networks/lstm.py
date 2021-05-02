@@ -31,6 +31,11 @@ class LSTM:
     def train(self, prev_state: float = None, prev_y: float = None):
         states = []
         y_outs = []
+        f_outs = []
+        i_outs = []
+        a_outs = []
+        s_outs = []
+        o_outs = []
 
         if prev_state:
             states.append(prev_state)
@@ -38,11 +43,13 @@ class LSTM:
         if prev_y:
             y_outs.append(prev_y)
 
-        for t in range(len(self.input_matrix)):
+        start_index = 1 if prev_y is not None else 0
+
+        for t in range(start_index, len(self.input_matrix) + start_index):
             print(f"At Time {t + 1}")
-            x = self.input_matrix[t]
+            x = self.input_matrix[t - start_index]
             y_prev = y_outs[t - 1] if len(y_outs) > 0 else [0]
-            y = self.output[t][0]
+            y = self.output[t - start_index][0]
             s = states[t - 1] if len(states) > 0 else 0
 
             f_out = self.f(w=self.wf, b=self.bf, x=x, y=y_prev)
@@ -58,6 +65,13 @@ class LSTM:
 
             states.append(s_out)
             y_outs.append(y_out)
+            f_outs.append(f_out)
+            i_outs.append(i_out)
+            a_outs.append(a_out)
+            s_outs.append(s_out)
+            o_outs.append(o_outs)
+
+        return y_outs, f_outs, i_outs, a_outs, s_outs, o_outs
 
     def f(self, w: np.ndarray, b, x: np.ndarray, y: np.ndarray):
         new_s = np.vstack((x.reshape((-1, 1)), y))
