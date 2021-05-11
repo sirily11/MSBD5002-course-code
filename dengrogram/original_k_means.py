@@ -1,8 +1,7 @@
 from typing import Tuple, List
-from scipy.spatial import distance
 import numpy as np
 import matplotlib.pyplot as plt
-from distances import calculate_distance
+from dengrogram import calculate_distance
 
 
 def calculate_new_center(points: List[Tuple[int, int]]):

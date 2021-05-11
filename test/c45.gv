@@ -1,0 +1,7 @@
+digraph root {
+	MMR_Vaccine [label=MMR_Vaccine]
+	"MMR_Vaccine-n" [label="3 n: 100.0% yes"]
+	MMR_Vaccine -> "MMR_Vaccine-n" [label=n]
+	"MMR_Vaccine-y" [label="5 y: 80.0% no"]
+	MMR_Vaccine -> "MMR_Vaccine-y" [label=y]
+}

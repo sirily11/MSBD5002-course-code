@@ -52,7 +52,7 @@ def kl_transform(points: List[Tuple], k=1):
         if phi is None:
             phi = vec
         else:
-            phi = np.hstack((vec, phi))
+            phi = np.hstack((phi, vec))
     print(f"Phi:\n{phi}")
     print("================================")
     print("Step 5, transform the given L-dimensional vectors by eigenvector matrix")
@@ -156,15 +156,12 @@ def kl_transform_with_symbol(points: List[Tuple], symbol, k=1, to_value=2):
 
 
 if __name__ == '__main__':
-    # pts = [(3, 3), (0, 2), (-1, -1), (2, 0)]
+    # TODO: Fix bugs
+    pts = [(6, 6), (8, 8), (5, 9), (9, 5)]
     c = Symbol("c")
     d = c + 5
-    pts1 = [(7 + c, 7 + c), (9 + c, 9 + c), (6 + c, 10 + c), (10 + c, 6 + c)]
-    pts2 = [(7 - d, 7 - d), (9 - d, 9 - d), (6 - d, 10 - d), (10 - d, 6 - d)]
-    pts3 = [(7 * c, 7 * c), (9 * c, 9 * c), (6 * c, 10 * c), (10 * c, 6 * c)]
-    # r1 = kl_transform_with_symbol(pts1)
-    # r2 = kl_transform_with_symbol(pts2)
+    # pts1 = [(7 + c, 7 + c), (9 + c, 9 + c), (6 + c, 10 + c), (10 + c, 6 + c)]
 
-    r3 = kl_transform_with_symbol(pts2, symbol=c, to_value=1)
+    r3 = kl_transform_with_symbol(pts, c)
     print()
     # print(r1[0][0] / r2[0][0])

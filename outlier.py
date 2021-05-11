@@ -1,5 +1,4 @@
 import numpy as np
-from distances import calculate_distance_from_array
 from typing import List, Dict, Tuple
 from pprint import pprint
 
@@ -36,7 +35,7 @@ def dbscan(distance_matrix: np.ndarray, distance=2, min_pts=6):
     groups: Dict[int: set] = {}
 
     for index, row in enumerate(distance_matrix):
-        # get distances except itself
+        # get distance except itself
         distances = [e for i, e in enumerate(row) if i != index]
         pts = [i for i, _ in enumerate(row) if i != index]
         within_the_range: List[bool] = [True if d <= distance else False for d in distances]

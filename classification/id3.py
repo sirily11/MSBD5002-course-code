@@ -39,11 +39,11 @@ def id3(target_table: pd.DataFrame, to_which_column: str, range_func) -> Tuple[l
     need_to_split_children = []
     for v in unique_values:
         data = tmp_table[tmp_table[igs[0][0]] == v]
-        score = calculate_percentage(data, to_which_column)
+        score, max_v = calculate_percentage(data, to_which_column)
         if range_func(score):
             need_to_split_children.append((v, data))
         else:
-            children.append((v, score, data))
+            children.append((v, score, data, max_v))
         print(f"{igs[0][0]} {v}: {score} {to_which_column}")
         print(data)
 

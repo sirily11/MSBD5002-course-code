@@ -25,9 +25,9 @@ def decision_tree(target_table: pd.DataFrame, to_which_column: str, treelib_tree
     if node_name != "":
         treelib_tree.node(node_name, node_name)
 
-    for v, score, c in children:
+    for v, score, c, max_v in children:
         name = f"{node_name}-{v}"
-        label = f"{len(c)} {v}: {score * 100}%"
+        label = f"{len(c)} {v}: {score * 100}% {max_v}"
 
         treelib_tree.node(name, label=label)
         treelib_tree.edge(node_name, name, label=v)

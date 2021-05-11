@@ -81,9 +81,11 @@ def calculate_percentage(target_table: pd.DataFrame, to_which_column: str):
     unique_values = target_table[to_which_column].unique()
     total = len(target_table)
     max_score = -1
+    max_v = None
     for v in unique_values:
         n = len(target_table[target_table[to_which_column] == v])
         s = n / total
         if s > max_score:
             max_score = s
-    return max_score
+            max_v = v
+    return max_score, max_v

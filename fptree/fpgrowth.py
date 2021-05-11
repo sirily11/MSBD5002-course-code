@@ -1,5 +1,5 @@
 from typing import List
-from fptree.fp_tree import find_frequent_patterns, print_tree
+from fptree import find_frequent_patterns, print_tree
 from collections import OrderedDict
 from pprint import pprint
 

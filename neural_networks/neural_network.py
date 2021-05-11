@@ -57,23 +57,29 @@ class NeuralNetwork:
 
 
 if __name__ == '__main__':
-    weights = np.array([[1], [1]])
-    bias = 1
+    weights = np.array([[0.1], [0.1]])
+    bias = 0.1
     x = np.array([
         [0, 0],
         [0, 1],
         [1, 0],
-        [1, 1]
+        [1, 1],
+        [0, 0],
     ])
 
     y = np.array([
         [0],
+        [0],
+        [0],
         [1],
-        [1],
-        [1]
+        [0]
     ])
 
+    activation_function = threshold_function
+
+    learning_rate = 0.5
+
     n = NeuralNetwork(input_matrix=x, desired_output=y, bias=bias, weights=weights,
-                      activation_function=sigmoid,
-                      learning_rate=0.8)
+                      activation_function=activation_function,
+                      learning_rate=learning_rate)
     n.train()

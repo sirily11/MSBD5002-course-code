@@ -1,6 +1,6 @@
 import numpy as np
-from distances import group_average_linkage, complete_linkage, single_linkage
 from copy import deepcopy
+from dengrogram import single_linkage
 
 
 def find_min_element(distance_matrix):

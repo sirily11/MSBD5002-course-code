@@ -32,7 +32,7 @@ class Hits:
         next_hop = self.hops
         i = 2
         next_hops = []
-
+        print(f"MMT = {self.matrix.dot(self.matrix.T)}")
         while (prev_hop != next_hop).any() or i == 2:
             prev_hop = next_hop
             next_hop = self.matrix.dot(self.matrix.T).dot(next_hop)
@@ -62,6 +62,7 @@ class Hits:
         next_authority = self.hops
         i = 2
         next_hops = []
+        print(f"MTM = {self.matrix.T.dot(self.matrix)}")
 
         while (prev_authority != next_authority).any() or i == 2:
             prev_authority = next_authority
@@ -86,6 +87,8 @@ class Hits:
 
 
 if __name__ == '__main__':
-    m = np.array([[1, 1, 1], [0, 0, 1], [1, 1, 0]])
+    m = np.array([[0, 1, 1], [1, 0, 1], [0, 0, 0]])
     hits = Hits(matrix=m, num_class=3)
     hits.calculate_authority()
+    print()
+    hits.calculate_hub()

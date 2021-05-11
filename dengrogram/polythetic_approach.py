@@ -1,8 +1,7 @@
 import numpy as np
 from typing import List
 from copy import deepcopy
-from pprint import pprint
-from distances import complete_linkage, group_average_linkage
+from dengrogram.distance.distances import complete_linkage, group_average_linkage
 
 
 def get_print_group(groups):
@@ -10,6 +9,18 @@ def get_print_group(groups):
 
 
 def polythetic_approach(distance_matrix: np.ndarray, distance_func, groups: List[List]):
+    """
+    divide the data based on the values by all attributes
+
+    Args:
+        distance_matrix:
+        distance_func:
+        groups:
+
+    Returns:
+
+    """
+    print(groups)
     new_groups = deepcopy(groups)
 
     while True:
@@ -58,5 +69,5 @@ if __name__ == '__main__':
         [11, 20, 12, 21, 17, 22, 30, 0]
     ])
 
-    new_group = polythetic_approach(distance_matrix=distance, distance_func=complete_linkage,
+    new_group = polythetic_approach(distance_matrix=distance, distance_func=group_average_linkage,
                                     groups=[[], [i for i, _ in enumerate(distance)]])

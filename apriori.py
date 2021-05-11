@@ -77,11 +77,11 @@ def apriori(input_tables, threshold):
 
 if __name__ == '__main__':
     tables = {
-        "a": [1, 1, 0, 1, 1],
-        "b": [0, 0, 0, 0, 0],
-        "c": [0, 0, 1, 1, 1],
-        "d": [1, 1, 0, 1, 0],
-        "e": [0, 1, 0, 1, 1],
+        "A": [1, 1, 0, 1, 1],
+        "B": [0, 0, 0, 0, 0],
+        "C": [0, 0, 1, 1, 1],
+        "D": [1, 1, 0, 1, 0],
+        "E": [0, 1, 0, 1, 1],
     }
 
     apriori(input_tables=tables, threshold=2)
