@@ -58,29 +58,29 @@ class NeuralNetwork:
 
 
 if __name__ == '__main__':
-    weights = np.array([[0.1], [0.1]])
+    weights = np.array([[0.3], [0.2]])
     bias = 0.1
     x = np.array([
-        [13, 13],
-        [19, 9],
-        [21, 15],
-        [15, 19],
-        [7, 9],
-        [5, 7]
+        [22, 50],
+        [10, 15],
+        [40, 22],
+        [7, 6],
+        [50, 30],
+        [30, 20]
     ])
 
     y = np.array([
-        [0],
-        [0],
-        [0],
-        [0],
         [1],
-        [1]
+        [-1],
+        [1],
+        [-1],
+        [1],
+        [-1]
     ])
 
     activation_function = tanh
 
-    learning_rate = 0.5
+    learning_rate = 0.4
 
     n = NeuralNetwork(input_matrix=x, desired_output=y, bias=bias, weights=weights,
                       activation_function=activation_function,

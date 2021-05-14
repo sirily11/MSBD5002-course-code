@@ -41,9 +41,9 @@ def polythetic_approach(distance_matrix: np.ndarray, distance_func, groups: List
         delta = distances_b - distances_a
         less_than_zero = [d for d in delta if d < 0]
         print("===========")
-        print(f"Distance A: {distances_a}")
-        print(f"Distance B: {distances_b}")
-        print(f"Delta: {delta}")
+        print(f"Distance A: {np.round(distances_a, 2)}")
+        print(f"Distance B: {np.round(distances_b, 2)}")
+        print(f"Delta: {np.round(delta, 2)}")
         if len(less_than_zero) == len(delta):
             print(f"Final Group: {get_print_group(new_groups)}")
             break
@@ -59,14 +59,13 @@ def polythetic_approach(distance_matrix: np.ndarray, distance_func, groups: List
 
 if __name__ == '__main__':
     distance = np.array([
-        [0, 11, 5, 12, 7, 13, 9, 11],
-        [11, 0, 13, 2, 17, 4, 15, 20],
-        [5, 13, 0, 14, 1, 15, 12, 12],
-        [12, 2, 14, 0, 18, 5, 16, 21],
-        [7, 17, 1, 18, 0, 20, 15, 17],
-        [13, 4, 15, 5, 20, 0, 19, 22],
-        [9, 15, 12, 16, 15, 19, 0, 30],
-        [11, 20, 12, 21, 17, 22, 30, 0]
+        [0, 10, 7, 30, 29, 38, 42],
+        [10, 0, 7, 23, 25, 34, 36],
+        [7, 7, 0, 21, 22, 31, 36],
+        [30, 23, 21, 0, 7, 10, 13],
+        [29, 25, 22, 7, 0, 11, 7],
+        [38, 34, 31, 10, 11, 0, 9],
+        [42, 36, 36, 13, 17, 9, 0]
     ])
 
     new_group = polythetic_approach(distance_matrix=distance, distance_func=group_average_linkage,

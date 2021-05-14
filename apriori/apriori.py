@@ -78,10 +78,9 @@ def apriori(input_tables, threshold):
 if __name__ == '__main__':
     tables = {
         "A": [1, 1, 0, 1, 1],
-        "B": [0, 0, 0, 0, 0],
+        "B": [1, 1, 0, 1, 0],
         "C": [0, 0, 1, 1, 1],
         "D": [1, 1, 0, 1, 0],
-        "E": [0, 1, 0, 1, 1],
     }
 
-    apriori(input_tables=tables, threshold=2)
+    apriori(input_tables=tables, threshold=1)

@@ -2,6 +2,7 @@ import numpy as np
 from typing import List, Dict, Tuple
 from pprint import pprint
 
+
 def print_points(points):
     if type(points) == list:
         return [p + 1 for p in points]
@@ -83,14 +84,11 @@ def dbscan(distance_matrix: np.ndarray, distance=2, min_pts=6):
 
 if __name__ == '__main__':
     distance = np.array([
-        [0, 11, 5, 12, 7, 13, 9, 11],
-        [11, 0, 13, 2, 17, 4, 15, 20],
-        [5, 13, 0, 14, 1, 15, 12, 12],
-        [12, 2, 14, 0, 18, 5, 16, 21],
-        [7, 17, 1, 18, 0, 20, 15, 17],
-        [13, 4, 15, 5, 20, 0, 19, 22],
-        [9, 15, 12, 16, 15, 19, 0, 30],
-        [11, 20, 12, 21, 17, 22, 30, 0]
+        [0, 1, 2, 11, 12],
+        [1, 0, 1, 11, 11],
+        [2, 1, 0, 9, 10],
+        [11, 11, 9, 0, 9],
+        [12, 11, 10, 9, 0]
     ])
 
-    new_group = dbscan(distance_matrix=distance, distance=10, min_pts=3)
+    new_group = dbscan(distance_matrix=distance, distance=10, min_pts=2)

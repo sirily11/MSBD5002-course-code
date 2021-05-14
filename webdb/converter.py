@@ -97,12 +97,12 @@ if __name__ == '__main__':
     z = Node("z")
 
     x.add_children([y, z])
-    y.add_children([y, x])
+    y.add_children([x])
     z.add_children([x, y])
 
     converter = GraphConverter(nodes=[x, y, z])
     m = converter.convert(to_which_algo="pagerank")
     print(m)
-
-    page_rank = PageRank(matrix=m, d=0.8, c=np.array([0.2, 0.2, 0.2]))
-    page_rank.run(10)
+    # 
+    # page_rank = PageRank(matrix=m, d=0.8, c=np.array([0.2, 0.2, 0.2]))
+    # page_rank.run(10)

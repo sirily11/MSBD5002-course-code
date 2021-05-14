@@ -57,15 +57,14 @@ class FPNode(object):
         return display_value
 
     def print(self, tree: Digraph):
-        tree.node(str(self.uuid),self.name)
-        if self.parent:
-            tree.edge(str(self.parent.uuid), str(self.uuid))
-        # else:
-        #     tree.edge("Root", self.name)
+        tree.node(str(self.uuid), self.name)
 
         for child in self.children:
             child: FPNode
             child.print(tree)
+
+        if self.parent:
+            tree.edge(str(self.parent.uuid), str(self.uuid))
 
 
 class FPTree(object):

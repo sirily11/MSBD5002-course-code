@@ -156,12 +156,9 @@ def kl_transform_with_symbol(points: List[Tuple], symbol, k=1, to_value=2):
 
 
 if __name__ == '__main__':
-    # TODO: Fix bugs
-    pts = [(6, 6), (8, 8), (5, 9), (9, 5)]
+    pts = [(18, 18), (24, 24), (15, 33), (30, 12)]
     c = Symbol("c")
     d = c + 5
-    # pts1 = [(7 + c, 7 + c), (9 + c, 9 + c), (6 + c, 10 + c), (10 + c, 6 + c)]
-
     r3 = kl_transform_with_symbol(pts, c)
     print()
     # print(r1[0][0] / r2[0][0])
