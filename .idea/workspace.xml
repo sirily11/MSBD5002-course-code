@@ -20,50 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98bbcce-18d1-4d33-a3c3-c6219df35023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignments/assignment3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classification/beyesian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_stream/lossy_counting_algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_stream/space_saving_algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_stream/sticky_sampling_algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_stream/tests/test_lossy_sampling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_stream/tests/test_space_saving_algorithn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataware_house/GreedySelect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataware_house/ViewGain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataware_house/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataware_house/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataware_house/tests/simple_cost_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataware_house/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dengrogram/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dengrogram/distance/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dengrogram/monothetic_approach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dengrogram/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dengrogram/tests/test_monothetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fptree/fptree_util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclass/ex8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdb/page_rank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdb/tests/test_page_rank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apriori/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subspace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subspace/density_based_subspace_clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subspace/entropy_based_subspace_clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdb/converter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/apriori.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/c45.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/c45.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/id3.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/id3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dengrogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/dengrogram_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/polythetic_approach.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distances/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/distances/distances.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/distance/distances.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fpgrowth.py" beforeDir="false" afterPath="$PROJECT_DIR$/fptree/fpgrowth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fptree/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fptree/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fptree/fp_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/fptree/fptree_util/fp_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/apriori/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/entropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataware_house/GreedySelect.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataware_house/GreedySelect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dengrogram/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dengrogram/dengrogram_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/dengrogram_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dengrogram/distance/distances.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/distance/distances.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fptree/fpgrowth.py" beforeDir="false" afterPath="$PROJECT_DIR$/fptree/fpgrowth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fptree/fptree_util/fp_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/fptree/fptree_util/fp_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neural_networks/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_networks/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/original_k_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/dengrogram/original_k_means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlier.py" beforeDir="false" afterPath="$PROJECT_DIR$/outlier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subspace_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/subspace_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdb/hits_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdb/hits_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subspace_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/subspace/subspace_clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdb/page_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdb/page_rank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +76,14 @@
       <recent name="$PROJECT_DIR$/classification" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apriori" />
+      <recent name="$PROJECT_DIR$/subspace" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/dengrogram/distances" />
       <recent name="$PROJECT_DIR$/dengrogram" />
-      <recent name="$PROJECT_DIR$/fp-tree" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/data_stream/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex8">
+  <component name="RunManager" selected="Python.dengrogram_graph">
     <configuration name="GreedySelect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ViewGain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +114,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataware_house" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataware_house/ViewGain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webdb/converter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dengrogram_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,12 +136,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inclass" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dengrogram" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inclass/ex8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dengrogram/dengrogram_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,54 +150,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for simple_cost_tests.SimpleCostTest.test_view_gain" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="fpgrowth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataware_house/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fptree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;simple_cost_tests.SimpleCostTest.test_view_gain&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fptree/fpgrowth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for simple_cost_tests.SimpleCostTest.test_view_gain2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataware_house/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_networks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;simple_cost_tests.SimpleCostTest.test_view_gain2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_networks/neural_network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for simple_cost_tests.SimpleCostTest.test_view_gain" />
-      <item itemvalue="Python tests.pytest for simple_cost_tests.SimpleCostTest.test_view_gain2" />
-      <item itemvalue="Python.ViewGain" />
+      <item itemvalue="Python.fpgrowth" />
+      <item itemvalue="Python.dengrogram_graph" />
       <item itemvalue="Python.GreedySelect" />
-      <item itemvalue="Python.ex8" />
+      <item itemvalue="Python.neural_network" />
+      <item itemvalue="Python.converter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex8" />
+        <item itemvalue="Python.dengrogram_graph" />
+        <item itemvalue="Python.fpgrowth" />
+        <item itemvalue="Python.converter" />
+        <item itemvalue="Python.neural_network" />
         <item itemvalue="Python.GreedySelect" />
-        <item itemvalue="Python.ViewGain" />
-        <item itemvalue="Python tests.pytest for simple_cost_tests.SimpleCostTest.test_view_gain2" />
-        <item itemvalue="Python tests.pytest for simple_cost_tests.SimpleCostTest.test_view_gain" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +242,10 @@
       <workItem from="1620244142013" duration="123000" />
       <workItem from="1620453014651" duration="1956000" />
       <workItem from="1620632272296" duration="15000" />
-      <workItem from="1620720926204" duration="10480000" />
+      <workItem from="1620720926204" duration="10778000" />
+      <workItem from="1620745554632" duration="4654000" />
+      <workItem from="1620822018538" duration="6947000" />
+      <workItem from="1620894289581" duration="17736000" />
     </task>
     <servers />
   </component>
@@ -301,17 +287,17 @@
     <state width="1060" height="587" key="DebuggerActiveHint/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290486834" />
     <state width="1136" height="580" key="DebuggerActiveHint/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617339537755" />
     <state width="1136" height="567" key="DebuggerActiveHint/1792.23.1920.1057/0.23.1792.1051@1792.23.1920.1057" timestamp="1617291859937" />
-    <state width="1494" height="256" key="GridCell.Tab.0.bottom" timestamp="1620739704441">
+    <state width="1494" height="326" key="GridCell.Tab.0.bottom" timestamp="1620980518814">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="256" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1618628137961" />
+    <state width="1494" height="256" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1620749364833" />
     <state width="1494" height="256" key="GridCell.Tab.0.bottom/0.23.1536.882@0.23.1536.882" timestamp="1620243008127" />
     <state width="1494" height="326" key="GridCell.Tab.0.bottom/0.23.1536.884@0.23.1536.884" timestamp="1618628880184" />
     <state width="1494" height="326" key="GridCell.Tab.0.bottom/0.23.1536.888@0.23.1536.888" timestamp="1620110171890" />
     <state width="1494" height="326" key="GridCell.Tab.0.bottom/0.23.1536.891@0.23.1536.891" timestamp="1618057220046" />
     <state width="1494" height="326" key="GridCell.Tab.0.bottom/0.23.1536.893@0.23.1536.893" timestamp="1618022429659" />
-    <state width="1494" height="256" key="GridCell.Tab.0.bottom/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620739704441" />
-    <state width="1494" height="256" key="GridCell.Tab.0.bottom/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620224012021" />
+    <state width="1494" height="326" key="GridCell.Tab.0.bottom/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980518814" />
+    <state width="1494" height="403" key="GridCell.Tab.0.bottom/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620921591889" />
     <state width="1494" height="256" key="GridCell.Tab.0.bottom/1536.23.1920.1057/0.23.1536.883@0.23.1536.883" timestamp="1620490043482" />
     <state width="1750" height="390" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604582" />
     <state width="1878" height="294" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617351219335" />
@@ -320,17 +306,17 @@
     <state width="1145" height="47" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1051@1792.23.1920.1057" timestamp="1617291526380" />
     <state width="1750" height="353" key="GridCell.Tab.0.bottom/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130635" />
     <state width="1750" height="353" key="GridCell.Tab.0.bottom/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010798" />
-    <state width="1494" height="256" key="GridCell.Tab.0.center" timestamp="1620739704440">
+    <state width="1494" height="326" key="GridCell.Tab.0.center" timestamp="1620980518813">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="256" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1618628137959" />
+    <state width="1494" height="256" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1620749364832" />
     <state width="1494" height="256" key="GridCell.Tab.0.center/0.23.1536.882@0.23.1536.882" timestamp="1620243008123" />
     <state width="1494" height="326" key="GridCell.Tab.0.center/0.23.1536.884@0.23.1536.884" timestamp="1618628880182" />
     <state width="1494" height="326" key="GridCell.Tab.0.center/0.23.1536.888@0.23.1536.888" timestamp="1620110171890" />
     <state width="1494" height="326" key="GridCell.Tab.0.center/0.23.1536.891@0.23.1536.891" timestamp="1618057220045" />
     <state width="1494" height="326" key="GridCell.Tab.0.center/0.23.1536.893@0.23.1536.893" timestamp="1618022429658" />
-    <state width="1494" height="256" key="GridCell.Tab.0.center/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620739704440" />
-    <state width="1494" height="256" key="GridCell.Tab.0.center/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620224012020" />
+    <state width="1494" height="326" key="GridCell.Tab.0.center/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980518813" />
+    <state width="1494" height="403" key="GridCell.Tab.0.center/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620921591887" />
     <state width="1494" height="256" key="GridCell.Tab.0.center/1536.23.1920.1057/0.23.1536.883@0.23.1536.883" timestamp="1620490043480" />
     <state width="1750" height="390" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604581" />
     <state width="1878" height="294" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617351219334" />
@@ -339,18 +325,18 @@
     <state width="1145" height="47" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1051@1792.23.1920.1057" timestamp="1617291526379" />
     <state width="1750" height="353" key="GridCell.Tab.0.center/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130634" />
     <state width="1750" height="353" key="GridCell.Tab.0.center/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010797" />
-    <state width="1494" height="256" key="GridCell.Tab.0.left" timestamp="1620739704439">
+    <state width="1494" height="326" key="GridCell.Tab.0.left" timestamp="1620980518812">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="1494" height="294" key="GridCell.Tab.0.left/0.0.1536.907@0.0.1536.960" timestamp="1617373512827" />
-    <state width="1494" height="256" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1618628137959" />
+    <state width="1494" height="256" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1620749364831" />
     <state width="1494" height="256" key="GridCell.Tab.0.left/0.23.1536.882@0.23.1536.882" timestamp="1620243008121" />
     <state width="1494" height="326" key="GridCell.Tab.0.left/0.23.1536.884@0.23.1536.884" timestamp="1618628880181" />
     <state width="1494" height="326" key="GridCell.Tab.0.left/0.23.1536.888@0.23.1536.888" timestamp="1620110171889" />
     <state width="1494" height="326" key="GridCell.Tab.0.left/0.23.1536.891@0.23.1536.891" timestamp="1618057220043" />
     <state width="1494" height="326" key="GridCell.Tab.0.left/0.23.1536.893@0.23.1536.893" timestamp="1618022429656" />
-    <state width="1494" height="256" key="GridCell.Tab.0.left/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620739704439" />
-    <state width="1494" height="256" key="GridCell.Tab.0.left/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620224012019" />
+    <state width="1494" height="326" key="GridCell.Tab.0.left/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980518812" />
+    <state width="1494" height="403" key="GridCell.Tab.0.left/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620921591887" />
     <state width="1494" height="256" key="GridCell.Tab.0.left/1536.23.1920.1057/0.23.1536.883@0.23.1536.883" timestamp="1620490043480" />
     <state width="1750" height="390" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604580" />
     <state width="1878" height="294" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617351219333" />
@@ -359,17 +345,17 @@
     <state width="1145" height="47" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1051@1792.23.1920.1057" timestamp="1617291526379" />
     <state width="1750" height="353" key="GridCell.Tab.0.left/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130634" />
     <state width="1750" height="353" key="GridCell.Tab.0.left/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010797" />
-    <state width="1494" height="256" key="GridCell.Tab.0.right" timestamp="1620739704441">
+    <state width="1494" height="326" key="GridCell.Tab.0.right" timestamp="1620980518814">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="256" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1618628137960" />
+    <state width="1494" height="256" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1620749364832" />
     <state width="1494" height="256" key="GridCell.Tab.0.right/0.23.1536.882@0.23.1536.882" timestamp="1620243008125" />
     <state width="1494" height="326" key="GridCell.Tab.0.right/0.23.1536.884@0.23.1536.884" timestamp="1618628880183" />
     <state width="1494" height="326" key="GridCell.Tab.0.right/0.23.1536.888@0.23.1536.888" timestamp="1620110171890" />
     <state width="1494" height="326" key="GridCell.Tab.0.right/0.23.1536.891@0.23.1536.891" timestamp="1618057220045" />
     <state width="1494" height="326" key="GridCell.Tab.0.right/0.23.1536.893@0.23.1536.893" timestamp="1618022429658" />
-    <state width="1494" height="256" key="GridCell.Tab.0.right/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620739704441" />
-    <state width="1494" height="256" key="GridCell.Tab.0.right/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620224012020" />
+    <state width="1494" height="326" key="GridCell.Tab.0.right/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980518814" />
+    <state width="1494" height="403" key="GridCell.Tab.0.right/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620921591888" />
     <state width="1494" height="256" key="GridCell.Tab.0.right/1536.23.1920.1057/0.23.1536.883@0.23.1536.883" timestamp="1620490043481" />
     <state width="1750" height="390" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604581" />
     <state width="1878" height="294" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617351219334" />
@@ -378,48 +364,52 @@
     <state width="1145" height="47" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1051@1792.23.1920.1057" timestamp="1617291526380" />
     <state width="1750" height="353" key="GridCell.Tab.0.right/1792.23.1920.997/0.23.1792.1097@0.23.1792.1097" timestamp="1616048130635" />
     <state width="1750" height="353" key="GridCell.Tab.0.right/1792.23.1920.997/0.23.1792.1097@1792.23.1920.997" timestamp="1616076010798" />
-    <state width="1494" height="326" key="GridCell.Tab.1.bottom" timestamp="1620738728300">
+    <state width="1494" height="326" key="GridCell.Tab.1.bottom" timestamp="1620980519396">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="326" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1618628034824" />
+    <state width="1494" height="326" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1620747023732" />
     <state width="1494" height="326" key="GridCell.Tab.1.bottom/0.23.1536.884@0.23.1536.884" timestamp="1618628880185" />
     <state width="1494" height="326" key="GridCell.Tab.1.bottom/0.23.1536.888@0.23.1536.888" timestamp="1620110171894" />
     <state width="1494" height="326" key="GridCell.Tab.1.bottom/0.23.1536.891@0.23.1536.891" timestamp="1618057220049" />
     <state width="1494" height="326" key="GridCell.Tab.1.bottom/0.23.1536.893@0.23.1536.893" timestamp="1618022429661" />
-    <state width="1494" height="326" key="GridCell.Tab.1.bottom/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620738728300" />
+    <state width="1494" height="326" key="GridCell.Tab.1.bottom/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980519396" />
+    <state width="1494" height="326" key="GridCell.Tab.1.bottom/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620830888658" />
     <state width="1750" height="390" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604584" />
     <state width="1878" height="374" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617340701830" />
-    <state width="1494" height="326" key="GridCell.Tab.1.center" timestamp="1620738728298">
+    <state width="1494" height="326" key="GridCell.Tab.1.center" timestamp="1620980519395">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="326" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1618628034824" />
+    <state width="1494" height="326" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1620747023731" />
     <state width="1494" height="326" key="GridCell.Tab.1.center/0.23.1536.884@0.23.1536.884" timestamp="1618628880184" />
     <state width="1494" height="326" key="GridCell.Tab.1.center/0.23.1536.888@0.23.1536.888" timestamp="1620110171893" />
     <state width="1494" height="326" key="GridCell.Tab.1.center/0.23.1536.891@0.23.1536.891" timestamp="1618057220048" />
     <state width="1494" height="326" key="GridCell.Tab.1.center/0.23.1536.893@0.23.1536.893" timestamp="1618022429660" />
-    <state width="1494" height="326" key="GridCell.Tab.1.center/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620738728298" />
+    <state width="1494" height="326" key="GridCell.Tab.1.center/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980519395" />
+    <state width="1494" height="326" key="GridCell.Tab.1.center/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620830888657" />
     <state width="1750" height="390" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604583" />
     <state width="1878" height="374" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617340701828" />
-    <state width="1494" height="326" key="GridCell.Tab.1.left" timestamp="1620738728298">
+    <state width="1494" height="326" key="GridCell.Tab.1.left" timestamp="1620980519394">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="326" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1618628034823" />
+    <state width="1494" height="326" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1620747023731" />
     <state width="1494" height="326" key="GridCell.Tab.1.left/0.23.1536.884@0.23.1536.884" timestamp="1618628880184" />
     <state width="1494" height="326" key="GridCell.Tab.1.left/0.23.1536.888@0.23.1536.888" timestamp="1620110171892" />
     <state width="1494" height="326" key="GridCell.Tab.1.left/0.23.1536.891@0.23.1536.891" timestamp="1618057220047" />
     <state width="1494" height="326" key="GridCell.Tab.1.left/0.23.1536.893@0.23.1536.893" timestamp="1618022429659" />
-    <state width="1494" height="326" key="GridCell.Tab.1.left/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620738728298" />
+    <state width="1494" height="326" key="GridCell.Tab.1.left/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980519394" />
+    <state width="1494" height="326" key="GridCell.Tab.1.left/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620830888656" />
     <state width="1750" height="390" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604583" />
     <state width="1878" height="374" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617340701827" />
-    <state width="1494" height="326" key="GridCell.Tab.1.right" timestamp="1620738728299">
+    <state width="1494" height="326" key="GridCell.Tab.1.right" timestamp="1620980519396">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="326" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1618628034824" />
+    <state width="1494" height="326" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1620747023731" />
     <state width="1494" height="326" key="GridCell.Tab.1.right/0.23.1536.884@0.23.1536.884" timestamp="1618628880185" />
     <state width="1494" height="326" key="GridCell.Tab.1.right/0.23.1536.888@0.23.1536.888" timestamp="1620110171893" />
     <state width="1494" height="326" key="GridCell.Tab.1.right/0.23.1536.891@0.23.1536.891" timestamp="1618057220048" />
     <state width="1494" height="326" key="GridCell.Tab.1.right/0.23.1536.893@0.23.1536.893" timestamp="1618022429660" />
-    <state width="1494" height="326" key="GridCell.Tab.1.right/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620738728299" />
+    <state width="1494" height="326" key="GridCell.Tab.1.right/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620980519396" />
+    <state width="1494" height="326" key="GridCell.Tab.1.right/1536.23.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1620830888657" />
     <state width="1750" height="390" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1617290604584" />
     <state width="1878" height="374" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1617340701829" />
     <state x="2217" y="191" key="SettingsEditor" timestamp="1617293024667">
@@ -433,6 +423,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="768" height="480" key="XDebugger.FullValuePopup/0.0.1536.960@0.0.1536.960" timestamp="1617283038205" />
+    <state x="466" y="112" width="604" height="735" key="find.popup" timestamp="1620976826391">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="466" y="112" width="604" height="735" key="find.popup/1536.0.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1620976826391" />
     <state x="500" y="214" width="670" height="601" key="search.everywhere.popup" timestamp="1620131020589">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -448,14 +442,19 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dengrogram/polythetic_approach.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/subspace_clustering.py</url>
+          <url>file://$PROJECT_DIR$/subspace/subspace_clustering.py</url>
           <line>47</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dengrogram/monothetic_approach.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classification/entropy.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -467,27 +466,30 @@
     <SUITE FILE_PATH="coverage/algorithm$beyesian.coverage" NAME="beyesian Coverage Results" MODIFIED="1620210250049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification" />
     <SUITE FILE_PATH="coverage/algorithm$assignment3.coverage" NAME="assignment3 Coverage Results" MODIFIED="1620050922598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments" />
     <SUITE FILE_PATH="coverage/algorithm$sampling_algorithm.coverage" NAME="sampling_algorithm Coverage Results" MODIFIED="1620031898421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream" />
-    <SUITE FILE_PATH="coverage/algorithm$original_k_means.coverage" NAME="original_k_means Coverage Results" MODIFIED="1620128719617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram" />
-    <SUITE FILE_PATH="coverage/algorithm$neural_network.coverage" NAME="neural_network Coverage Results" MODIFIED="1620726439059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neural_networks" />
+    <SUITE FILE_PATH="coverage/algorithm$original_k_means.coverage" NAME="original_k_means Coverage Results" MODIFIED="1620749364822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram" />
+    <SUITE FILE_PATH="coverage/algorithm$neural_network.coverage" NAME="neural_network Coverage Results" MODIFIED="1620922416722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neural_networks" />
     <SUITE FILE_PATH="coverage/algorithm$ViewGain.coverage" NAME="ViewGain Coverage Results" MODIFIED="1620737533385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataware_house" />
     <SUITE FILE_PATH="coverage/algorithm$polythetic_approach.coverage" NAME="polythetic_approach Coverage Results" MODIFIED="1620137404670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram" />
+    <SUITE FILE_PATH="coverage/algorithm$dengrogram_graph.coverage" NAME="dengrogram_graph Coverage Results" MODIFIED="1620980518707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_simple_cost_tests_SimpleCostTest_test_one.coverage" NAME="pytest for simple_cost_tests.SimpleCostTest.test_one Coverage Results" MODIFIED="1620734761954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataware_house/tests" />
+    <SUITE FILE_PATH="coverage/algorithm$entropy.coverage" NAME="entropy Coverage Results" MODIFIED="1620902951603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_simple_cost_tests_SimpleCostTest_test_two.coverage" NAME="pytest for simple_cost_tests.SimpleCostTest.test_two Coverage Results" MODIFIED="1620734830096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataware_house/tests" />
     <SUITE FILE_PATH="coverage/algorithm$ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1618628137946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inclass" />
+    <SUITE FILE_PATH="coverage/algorithm$density_based_subspace_clustering.coverage" NAME="density_based_subspace_clustering Coverage Results" MODIFIED="1620903371447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/subspace" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_data_stream_tests_test_false_positive_TestFalsePosNeg_test_false_negatives.coverage" NAME="pytest for data_stream.tests.test_false_positive.TestFalsePosNeg.test_false_negatives Coverage Results" MODIFIED="1619960706152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$id3.coverage" NAME="decision_tree Coverage Results" MODIFIED="1617290131666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification" />
-    <SUITE FILE_PATH="coverage/algorithm$subspace_clustering.coverage" NAME="subspace_clustering Coverage Results" MODIFIED="1620727660824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$subspace_clustering.coverage" NAME="subspace_clustering Coverage Results" MODIFIED="1620822957887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/subspace" />
     <SUITE FILE_PATH="coverage/algorithm$gru.coverage" NAME="gru Coverage Results" MODIFIED="1618042328319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neural_networks" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_deficient_synopsis_TestDeficientSynopsis_test_deficient_synopsis.coverage" NAME="pytest for test_deficient_synopsis.TestDeficientSynopsis.test_deficient_synopsis Coverage Results" MODIFIED="1619964444177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream/tests" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_sticky_sampling_TestStickySampling_test_sample_results.coverage" NAME="pytest for test_sticky_sampling.TestStickySampling.test_sample_results Coverage Results" MODIFIED="1620033804110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream/tests" />
     <SUITE FILE_PATH="coverage/algorithm$ex6.coverage" NAME="ex6 Coverage Results" MODIFIED="1618040714618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inclass" />
     <SUITE FILE_PATH="coverage/algorithm$neural_network__1_.coverage" NAME="neural_network Coverage Results" MODIFIED="1617991295351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neural_networks" />
     <SUITE FILE_PATH="coverage/algorithm$aa.coverage" NAME="aa Coverage Results" MODIFIED="1620128653986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram/distance" />
-    <SUITE FILE_PATH="coverage/algorithm$monothetic_approach.coverage" NAME="monothetic_approach Coverage Results" MODIFIED="1620133415442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram" />
+    <SUITE FILE_PATH="coverage/algorithm$monothetic_approach.coverage" NAME="monothetic_approach Coverage Results" MODIFIED="1620747481169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram" />
     <SUITE FILE_PATH="coverage/algorithm$deficient_synopsis.coverage" NAME="deficient_synopsis Coverage Results" MODIFIED="1619964338498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_simple_cost_tests_SimpleCostTest_test_view_gain2.coverage" NAME="pytest for simple_cost_tests.SimpleCostTest.test_view_gain2 Coverage Results" MODIFIED="1620736313309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataware_house/tests" />
     <SUITE FILE_PATH="coverage/algorithm$classification.coverage" NAME="classification Coverage Results" MODIFIED="1620726435808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$fpgrowth.coverage" NAME="fpgrowth Coverage Results" MODIFIED="1620722707487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fptree" />
+    <SUITE FILE_PATH="coverage/algorithm$fpgrowth.coverage" NAME="fpgrowth Coverage Results" MODIFIED="1620978426638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fptree" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_monothetic_TestMonothetic_test_one.coverage" NAME="pytest for test_monothetic.TestMonothetic.test_one Coverage Results" MODIFIED="1620132526651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram/tests" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_lossy_sampling_TestLossySampling_test_one.coverage" NAME="pytest for test_lossy_sampling.TestLossySampling.test_one Coverage Results" MODIFIED="1620039128222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream/tests" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_deficient_synopsis_TestDeficientSynopsis.coverage" NAME="pytest for test_deficient_synopsis.TestDeficientSynopsis Coverage Results" MODIFIED="1619964326343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream/tests" />
@@ -504,12 +506,14 @@
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_sticky_sampling_TestStickySampling.coverage" NAME="pytest for test_sticky_sampling.TestStickySampling Coverage Results" MODIFIED="1620026386211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream/tests" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_test_space_saving_algorithn_TestSpaceSavingSampling_test_one.coverage" NAME="pytest for test_space_saving_algorithn.TestSpaceSavingSampling.test_one Coverage Results" MODIFIED="1620040159344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream/tests" />
     <SUITE FILE_PATH="coverage/algorithm$ex9.coverage" NAME="ex9 Coverage Results" MODIFIED="1619960943509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inclass" />
-    <SUITE FILE_PATH="coverage/algorithm$GreedySelect.coverage" NAME="GreedySelect Coverage Results" MODIFIED="1620738916061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataware_house" />
+    <SUITE FILE_PATH="coverage/algorithm$GreedySelect.coverage" NAME="GreedySelect Coverage Results" MODIFIED="1620921591880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataware_house" />
     <SUITE FILE_PATH="coverage/algorithm$distance.coverage" NAME="distance Coverage Results" MODIFIED="1616076927644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$page_rank.coverage" NAME="page_rank Coverage Results" MODIFIED="1620049786656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdb" />
     <SUITE FILE_PATH="coverage/algorithm$pytest_for_data_stream_tests_test_false_positive_TestFalsePosNeg_test_false_positives.coverage" NAME="pytest for data_stream.tests.test_false_positive.TestFalsePosNeg.test_false_positives Coverage Results" MODIFIED="1619960598755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$distances.coverage" NAME="distances Coverage Results" MODIFIED="1620747038868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dengrogram/distance" />
     <SUITE FILE_PATH="coverage/algorithm$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1620739704433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inclass" />
     <SUITE FILE_PATH="coverage/algorithm$space_saving_algorithm.coverage" NAME="space_saving_algorithm Coverage Results" MODIFIED="1620040164526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_stream" />
-    <SUITE FILE_PATH="coverage/algorithm$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1620723843332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1620902976314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apriori" />
+    <SUITE FILE_PATH="coverage/algorithm$converter.coverage" NAME="converter Coverage Results" MODIFIED="1620978422302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdb" />
   </component>
 </project>

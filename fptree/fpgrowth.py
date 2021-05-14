@@ -34,18 +34,30 @@ def get_list_transaction_by_frequency_table(transactions: List[List], frequency_
 
 
 if __name__ == '__main__':
-    # transactions = [["a", "b", "c", "d", "e", "f", "g", "h"],
-    #                 ["a", "f", "g"],
-    #                 ["b", "d", "e", "f", "j"],
-    #                 ["a", "b", "d", "i", "k"],
-    #                 ["a", "b", "e", "g"]]
+    transactions = [["a", "b", "c", "d", "e", "f", "g", "h"],
+                    ["a", "f", "g"],
+                    ["b", "d", "e", "f", "j"],
+                    ["a", "b", "d", "i", "k"],
+                    ["a", "b", "e", "g"]]
 
-    transactions = [["a", "d"],
-                    ["b"],
-                    ["a", "c", "d"],
-                    ["a", "c", "d"]
+    transactions = [["b", "d", "f", "r"],
+                    ["b", "c", "d", "s"],
+                    ["c", "m", "t"],
+                    ["b", "d", "f"],
+                    ["a", "d", "f"],
+                    ["e", "f"],
+                    ["f", "h"],
+                    ["b", "d", "c"],
+                    ["a", "l"],
+                    ["c", "g"],
+                    ["c", "k"],
+                    ["f", "n", "o"],
+                    ["b", "c", "d", "p"],
+                    ["f", "j", "q"],
+                    ["c", "i"],
+                    ["a", "d"]
                     ]
-    threshold = 3
+    threshold = 2
 
     print("Frequency table")
     frequency_table = find_frequency_table(transactions)

@@ -1,6 +1,7 @@
 import numpy as np
-from typing import Tuple
+from typing import Tuple, List
 from scipy.spatial import distance
+from itertools import permutations
 
 
 def group_average_linkage(points: np.ndarray) -> float:
@@ -78,3 +79,41 @@ def calculate_distance(point1: Tuple[int, int], point2: Tuple[int, int]):
     Calculate distance between two points with x and y coordinate
     """
     return distance.euclidean(point1, point2)
+
+
+def euclidean_distance_list(points: List[Tuple[int, int]]) -> float:
+    """
+    Lists version of euclidean distance. Similar to single linkage's usage
+    Args:
+        points:
+
+    Returns:
+
+    """
+    return distance.euclidean(points[0], points[1])
+
+
+def distance_matrix_generator(points: List[Tuple[int, int]], distance_func) -> np.ndarray:
+    """
+    Generate a distance matrix by points
+    Args:
+        points: [(1, 2), (3, 4)]
+        distance_func: Which distance function you want to use. Single linkage for example
+
+    Returns: a distance matrix
+
+    """
+    length = len(points)
+    arr = np.zeros((length, length))
+    for i in range(length):
+        for j in range(length):
+            pts = [points[i], points[j]]
+            dis = distance_func(pts)
+            arr[i][j] = dis
+    return arr
+
+
+if __name__ == '__main__':
+    distance_matrix = distance_matrix_generator([(1, 2), (2, 2), (5, 2), (6, 1)],
+                                                distance_func=euclidean_distance_list)
+    print(distance_matrix)

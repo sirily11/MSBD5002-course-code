@@ -3,6 +3,7 @@ from typing import Callable
 import numpy as np
 
 from neural_networks.activations.sigmoid import sigmoid
+from neural_networks.activations.tanh import tanh
 from neural_networks.activations.threshold_function import threshold_function
 
 
@@ -27,8 +28,8 @@ class NeuralNetwork:
 
                 net = self.forward_pass(x)
                 new_weights, new_bias = self.backward_pass(x=x, y=net, d=d)
-                print(f"Weights: {new_weights}")
-                print(f"Bias: {new_bias}")
+                print(f"Weights: {np.round(new_weights, 2)}")
+                print(f"Bias: {np.round(new_bias, 2)}")
 
                 self.weights = new_weights
                 self.bias = new_bias
@@ -60,22 +61,24 @@ if __name__ == '__main__':
     weights = np.array([[0.1], [0.1]])
     bias = 0.1
     x = np.array([
-        [0, 0],
-        [0, 1],
-        [1, 0],
-        [1, 1],
-        [0, 0],
+        [13, 13],
+        [19, 9],
+        [21, 15],
+        [15, 19],
+        [7, 9],
+        [5, 7]
     ])
 
     y = np.array([
         [0],
         [0],
         [0],
+        [0],
         [1],
-        [0]
+        [1]
     ])
 
-    activation_function = threshold_function
+    activation_function = tanh
 
     learning_rate = 0.5
 

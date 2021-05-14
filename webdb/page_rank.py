@@ -3,6 +3,13 @@ import numpy as np
 
 class PageRank:
     def __init__(self, matrix: np.ndarray, c: np.ndarray = None, d: float = 1, ):
+        """
+        Run page rank
+        Args:
+            matrix:
+            c: + c
+            d: * d
+        """
         self.matrix = matrix
         self.d = d
         self.c = c

@@ -1,5 +1,7 @@
 import itertools
 from treelib import Node, Tree
+from graphviz import Digraph
+from uuid import uuid4
 
 
 class FPNode(object):
@@ -16,6 +18,7 @@ class FPNode(object):
         self.parent = parent
         self.link = None
         self.children = []
+        self.uuid = uuid4()
 
     def has_child(self, value):
         """
@@ -45,16 +48,20 @@ class FPNode(object):
         self.children.append(child)
         return child
 
-    def print(self, tree: Tree):
+    @property
+    def name(self):
         if self.value:
             display_value = f"{self.value}:{self.count}"
         else:
-            display_value = "root"
+            display_value = "Root"
+        return display_value
 
+    def print(self, tree: Digraph):
+        tree.node(str(self.uuid),self.name)
         if self.parent:
-            tree.create_node(display_value, self, self.parent)
-        else:
-            tree.create_node(display_value, self, "root")
+            tree.edge(str(self.parent.uuid), str(self.uuid))
+        # else:
+        #     tree.edge("Root", self.name)
 
         for child in self.children:
             child: FPNode
@@ -77,10 +84,10 @@ class FPTree(object):
             root_count, self.frequent, self.headers)
 
     def print_tree(self):
-        tree = Tree()
-        tree.create_node("Root", "root")
+        tree = Digraph(name="root")
+        # tree.node("Root", "root")
         self.root.print(tree=tree)
-        tree.show()
+        tree.render("fp_tree_test/tree.gv", view=False)
 
     @staticmethod
     def find_frequent_items(transactions, threshold):
